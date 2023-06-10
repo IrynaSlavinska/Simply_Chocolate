@@ -1,0 +1,250 @@
+:root {
+  --dark-text-color: #111111;
+  --light-text-color: #ffffff;
+  --hero-background: #ffc163;
+  --akcent-color: #fd9222;
+  --dark-backcolor: #1e1823;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: var(--dark-text-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* -----------------HEADER----------------- */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: var(--dark-text-color);
+  text-transform: uppercase;
+}
+.header-logo span {
+  font-style: italic;
+}
+.header-menu {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--dark-text-color);
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--akcent-color);
+}
+
+.header-soc {
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
+
+/* -----------------HERO----------------- */
+.hero {
+  background-color: var(--hero-background);
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.hero-button {
+  /* font-family: 'Montserrat'; */
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color:  #FFFFFF);
+  cursor: pointer;
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--light-text-color);
+}
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--light-text-color);
+}
+
+/* -----------------HERO----------------- */
+
+.benefits {
+  background-color: var(--dark-backcolor);
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
+}
+.benefits-item-text {
+  /* 400 - standrt font-weight */
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* -----------------PRODUCTS----------------- */
+.products {
+}
+.products-title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+}
+.products-title span {
+  color: var(--akcent-color);  
+}
+.products-text {
+    font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+
+}
+.products-list {
+}
+.products-item {
+}
+.products-subtitle {
+    font-weight: 600;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.products-subtitle.light {
+color: var(--light-text-color)
+}
+.products-subtitle.dark {
+
+}
+
+/* -----------------MADE----------------- */
+.made {
+}
+.made-title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+}
+.made-title span {
+    color: var(--akcent-color);
+}
+.made-img {
+}
+.made-text {
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+
+}
+.made-list {
+}
+.made-item {
+}
+.made-item-text {
+    font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+/* -----------------LOVED----------------- */
+.loved {
+}
+.loved-title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.loved-title span {
+    color: var(--akcent-color);
+}
+.loved-list {
+}
+.loved-item {
+}
+.loved-subtitle {
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+text-align: center;
+}
+.loved-item-text {
+    font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+color: rgba(17, 17, 17, 0.7);
+}
+.loved-button {
+    font-family: inherit;
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+cursor: pointer;
+}
+
+/* -----------------FOOTER----------------- */
+.footer {
+}
+.footer-text {
+}
+.footer-contact {
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-item {
+}
+.footer-address-link {
+}
+.footer-navigation {
+}
+.footer-menu {
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+}
