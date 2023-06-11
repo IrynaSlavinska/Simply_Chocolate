@@ -57,8 +57,11 @@
               aria-label="instagram"
               target="_blank"
               rel="noopener noreferrer"
-              >insta</a
             >
+              <svg class="header-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="header-soc-item">
             <a
@@ -67,8 +70,11 @@
               aria-label="twitter"
               target="_blank"
               rel="noopener noreferrer"
-              >twit</a
             >
+              <svg class="header-soc-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -85,7 +91,13 @@
           <div class="hero-buttons">
             <button type="button" class="hero-button">Buy now</button>
             <a href="#made" class="hero-link">How it`s made</a>
-            <a href="#footer" class="hero-scroll-link">scroll down</a>
+            <a href="#footer" class="hero-scroll-link"
+              >scroll down
+              <span>
+                <svg class="header-hero-icon" width="22" height="22">
+                  <use href="./images/symbol-defs.svg#icon-angle"></use>
+                </svg> </span
+            ></a>
           </div>
         </div>
       </section>
@@ -143,18 +155,81 @@
             <li class="products-item">
               <img src="./images/prod-1.png" alt="piece of chocolate" />
               <h3 class="products-subtitle light">Milk chocolate</h3>
+              <div class="products-cover-block">
+                <p class="products-cover-title">Milk chocolate</p>
+                <button type="button" class="products-cover-btn">
+                  chocolate
+                </button>
+                <button type="button" class="products-cover-btn">
+                  the benefits
+                </button>
+                <p class="products-cover-text">
+                  Milk chocolate is a solid chocolate confectionery containing
+                  cocoa, sugar and milk. It is the most consumed type of
+                  chocolate. Chocolate was originally sold and consumed as a
+                  beverage in pre-Columbian times. Although four-fifths of all
+                  milk chocolate is sold in the United States and Europe.
+                </p>
+              </div>
             </li>
             <li class="products-item">
               <img src="./images/prod-2.png" alt="bottle of milk" />
               <h3 class="products-subtitle dark">Milk</h3>
+              <div class="products-cover-block">
+                <p class="products-cover-title">Milk</p>
+                <button type="button" class="products-cover-btn">milk</button>
+                <button type="button" class="products-cover-btn">
+                  the benefits
+                </button>
+                <p class="products-cover-text">
+                  Milk is a white liquid food produced by the mammary glands of
+                  mammals. It is the primary source of nutrition for young
+                  mammals (including breastfed human infants) before they are
+                  able to digest solid food.Early-lactation milk, which is
+                  called colostrum, contains antibodies that strengthen the
+                  immune system.
+                </p>
+              </div>
             </li>
             <li class="products-item">
               <img src="./images/prod-3.png" alt="nuts" />
               <h3 class="products-subtitle light">Nuts</h3>
+              <div class="products-cover-block">
+                <p class="products-cover-title">Nuts</p>
+                <button type="button" class="products-cover-btn">nuts</button>
+                <button type="button" class="products-cover-btn">
+                  the benefits
+                </button>
+                <p class="products-cover-text">
+                  Almonds, pistachios, and walnuts are some types of nuts that
+                  contain healthy nutrients. When eaten as part of a
+                  nutrient-dense diet, these 9 nuts may offer benefits such as
+                  reducing your risk of heart disease. They`re a good source of
+                  fiber, healthy fats, and plant protein. Plus, they`re great on
+                  their own.
+                </p>
+              </div>
             </li>
             <li class="products-item">
               <img src="./images/prod-4.png" alt="semi-sweet chocolate" />
               <h3 class="products-subtitle dark">Semi-sweet chocolate</h3>
+              <div class="products-cover-block">
+                <p class="products-cover-title">Semi-sweet chocolate</p>
+                <button type="button" class="products-cover-btn">
+                  sweet chocolate
+                </button>
+                <button type="button" class="products-cover-btn">
+                  the benefits
+                </button>
+                <p class="products-cover-text">
+                  Semi-sweet chocolate has a cocoa solid content of 35 to 65%.
+                  One of the best ways to gain an understanding of this type of
+                  chocolate is to compare it to a different type of chocolate.
+                  Semisweet is darker than milk chocolate. In a taste
+                  comparison, it has a slightly bitter taste whereas milk
+                  chocolate is sweeter and more mellow.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -218,12 +293,13 @@
           <h2 class="loved-title"><span>Chocolate</span> is loved</h2>
           <ul class="loved-list">
             <li class="loved-item">
-              <!-- <img
+              <img
                 src="./images/loved-1.jpg"
                 alt="Victoria Dobrzhanska`s photo"
                 width="80"
                 height="80"
-              /> -->
+                class="loved-image"
+              />
               <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
               <p class="loved-item-text">
                 I love this chocolate bar. Perfect combination of light crispy
@@ -231,12 +307,13 @@
               </p>
             </li>
             <li class="loved-item">
-              <!-- <img
+              <img
                 src="./images/loved-2.jpg"
                 alt="Nazar Babenko`s photo"
                 width="80"
                 height="80"
-              /> -->
+                class="loved-image"
+              />
               <h3 class="loved-subtitle">Nazar Babenko</h3>
               <p class="loved-item-text">
                 This chocolate confection is a delight! A delight! The wafer is
@@ -245,12 +322,13 @@
               </p>
             </li>
             <li class="loved-item">
-              <!-- <img
+              <img
                 src="./images/loved-3.jpg"
                 alt="Olena Kampusch`s photo"
                 width="80"
                 height="80"
-              /> -->
+                class="loved-image"
+              />
               <h3 class="loved-subtitle">Olena Kampusch</h3>
               <p class="loved-item-text">
                 Chocolate is a family favourite treat. Love the delicious smooth
@@ -259,7 +337,9 @@
               </p>
             </li>
           </ul>
-          <button type="button" class="loved-button">Leave a review</button>
+          <button type="button" class="loved-button" data-modal-open>
+            Leave a review
+          </button>
         </div>
       </section>
     </main>
@@ -305,5 +385,11 @@
         </nav>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
